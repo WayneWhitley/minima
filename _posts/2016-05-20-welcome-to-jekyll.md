@@ -9,6 +9,12 @@ $$ x = y^2 $$
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
+f(n) =
+\begin{cases}
+\frac{n}{2},  & \text{if $n$ is even} \\[2ex]
+3n+1, & \text{if $n$ is odd}
+\end{cases}
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
