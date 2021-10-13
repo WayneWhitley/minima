@@ -34,6 +34,8 @@ x_i^2
 x_{i^2}
 $$
 
+Here's a final example (inline):  \left(\frac{\sqrt x}{y^3}\right)  (if that renders properly)
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
