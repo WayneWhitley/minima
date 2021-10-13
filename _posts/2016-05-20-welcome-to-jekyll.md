@@ -7,6 +7,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 $$ x = y^2 $$
 
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
