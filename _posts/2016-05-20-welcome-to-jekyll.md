@@ -35,7 +35,7 @@ x_{i^2}
 $$
 
 Here's a final example (inline):
-$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+\\(\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}\\)
 (if that renders properly)
 
 Jekyll also offers powerful support for code snippets:
