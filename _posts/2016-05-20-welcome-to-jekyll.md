@@ -9,11 +9,30 @@ $$ x = y^2 $$
 
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
-f(n) =
-\begin{cases}
-\frac{n}{2},  & \text{if $n$ is even} \\[2ex]
-3n+1, & \text{if $n$ is odd}
-\end{cases}
+$$
+\left\{ 
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right. 
+$$
+
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+
+$$
+x_i^2
+\log_2 x
+\alpha = \beta = \omega
+x_{i^2}
+$$
 
 Jekyll also offers powerful support for code snippets:
 
