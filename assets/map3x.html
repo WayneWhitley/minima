@@ -40,14 +40,14 @@
       ) {
 
         // Use CORS
-        esriConfig.defaults.io.corsEnabledServers.push("earthquake.usgs.gov"); // supports CORS
+        //esriConfig.defaults.io.corsEnabledServers.push("earthquake.usgs.gov"); // supports CORS
 
         map = new Map("map", {
           basemap: "gray-vector",
           center: [ -60, -10 ],
           zoom: 3
         });
-        csv = new CSVLayer("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.csv", {
+        csv = new CSVLayer("https://raw.githubusercontent.com/WayneWhitley/github-pages-with-jekyll/main/earthquakes.csv", {
           copyright: "USGS.gov"
         });
         var orangeRed = new Color([238, 69, 0, 0.5]); // hex is #ff4500
